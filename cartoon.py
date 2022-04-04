@@ -2,7 +2,7 @@ import cv2
 from cv2 import adaptiveThreshold
 import numpy as np
 
-img=cv2.imread("jhalt2.jpeg")
+img=cv2.imread("satya2.jpeg")
 
 def cartoonize(img,k):
     data=np.float32(img).reshape(-8,3)                              #converted to float value        #reshape image using numpy without changing any value of pixels
